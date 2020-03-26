@@ -4,14 +4,15 @@ end
 
 def create_an_array
   array = [1,2,3,4]
+  puts array
 end
 
 def add_element_to_end_of_array(array, element)
-  array.push(4)
+  puts array.push(4)
 end
 
 def add_element_to_start_of_array(array, element)
-  array.unshift(1)
+  puts array.unshift(1)
 end
 
 def remove_element_from_end_of_array(array)
